@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0710"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BuildableName = "SAMChess_test3.app"
+               BlueprintName = "SAMChess_test3"
+               ReferencedContainer = "container:SAMChess_test3.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Development Editor"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BuildableName = "SAMChess_test3.app"
+               BlueprintName = "SAMChess_test3"
+               ReferencedContainer = "container:SAMChess_test3.xcodeproj">
+            </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Development Editor"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BuildableName = "SAMChess_test3.app"
+               BlueprintName = "SAMChess_test3"
+               ReferencedContainer = "container:SAMChess_test3.xcodeproj">
+            </BuildableReference>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "&quot;/Users/ethan/Developer/Unreal/SAMChess_test3/SAMChess_test3.uproject&quot;"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Development Editor"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BuildableName = "SAMChess_test3.app"
+               BlueprintName = "SAMChess_test3"
+               ReferencedContainer = "container:SAMChess_test3.xcodeproj">
+            </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Development Editor">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Development Editor"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
