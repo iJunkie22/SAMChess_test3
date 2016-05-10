@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BlueprintIdentifier = "B6B63ADED8D3948F28236F13"
                BuildableName = "SAMChess_test3.app"
                BlueprintName = "SAMChess_test3"
                ReferencedContainer = "container:SAMChess_test3.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BlueprintIdentifier = "B6B63ADED8D3948F28236F13"
                BuildableName = "SAMChess_test3.app"
                BlueprintName = "SAMChess_test3"
                ReferencedContainer = "container:SAMChess_test3.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BlueprintIdentifier = "B6B63ADED8D3948F28236F13"
                BuildableName = "SAMChess_test3.app"
                BlueprintName = "SAMChess_test3"
                ReferencedContainer = "container:SAMChess_test3.xcodeproj">
@@ -80,7 +80,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4652EC3B91DE6CDB87F03418"
+               BlueprintIdentifier = "B6B63ADED8D3948F28236F13"
                BuildableName = "SAMChess_test3.app"
                BlueprintName = "SAMChess_test3"
                ReferencedContainer = "container:SAMChess_test3.xcodeproj">

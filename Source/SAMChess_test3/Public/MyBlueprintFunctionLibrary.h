@@ -8,12 +8,22 @@
 /**
  * 
  */
+
+
+
 UCLASS()
 class SAMCHESS_TEST3_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
+        
+public:
+    UMyBlueprintFunctionLibrary();
+    /*
+        UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "SAMChess")
+        static void EventViewportResized(int32 fish);
+        //static FName EventViewportResized
 	
-	
-	
-	
+	*/
 };
+
+

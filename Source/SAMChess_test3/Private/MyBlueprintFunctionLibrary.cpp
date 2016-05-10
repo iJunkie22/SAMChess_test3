@@ -4,5 +4,9 @@
 #include "MyBlueprintFunctionLibrary.h"
 
 
+UMyBlueprintFunctionLibrary::UMyBlueprintFunctionLibrary()
+{
+    //GEngine->GameViewport->Viewport->ViewportResizedEvent.AddUFunction(this, &UMyBlueprintFunctionLibrary::EventViewportResized);
+}
 
 

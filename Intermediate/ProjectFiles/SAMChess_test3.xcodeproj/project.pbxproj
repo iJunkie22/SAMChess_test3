@@ -15,6 +15,12 @@
 		4CD3A681DE280EC3E9D7AB72 /* SAMChess_test3.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B2286ABF44AB5AABDA95438 /* SAMChess_test3.h */; };
 		FD6ED06BF2067211B4E836FC /* SAMChess_test3GameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56AF37139DE9F9662020A331 /* SAMChess_test3GameMode.cpp */; };
 		BA0201245D3AE0A27E6E846F /* SAMChess_test3GameMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 58A3D1E36599BD22EC8A5544 /* SAMChess_test3GameMode.h */; };
+		13A10DD3B0EE17DCCB9EB0F0 /* SmartTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 054DB47A08937DE82BC8BBFA /* SmartTile.cpp */; };
+		1815018763814530ACBC11BB /* SmartTile.h in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CF29057A8A4B9F3E1DD17 /* SmartTile.h */; };
+		E4431A590C6D184AE612BB9A /* MyBlueprintFunctionLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC907949597F43483BF94CFB /* MyBlueprintFunctionLibrary.cpp */; };
+		A0EC90832401073737E9A21F /* MyCustomPlayerController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66EC233FA4C6D51A5158A3C7 /* MyCustomPlayerController.cpp */; };
+		2E5A5F739D95DCEBF61FB820 /* MyBlueprintFunctionLibrary.h in Sources */ = {isa = PBXBuildFile; fileRef = DC9526E40B846203ED59E36D /* MyBlueprintFunctionLibrary.h */; };
+		5B04A4742332AA4848C954CA /* MyCustomPlayerController.h in Sources */ = {isa = PBXBuildFile; fileRef = A29399A20CB728473303620E /* MyCustomPlayerController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,53 +32,62 @@
 		0B2286ABF44AB5AABDA95438 /* SAMChess_test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SAMChess_test3.h"; path = "../../Source/SAMChess_test3/SAMChess_test3.h"; sourceTree = SOURCE_ROOT; };
 		56AF37139DE9F9662020A331 /* SAMChess_test3GameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SAMChess_test3GameMode.cpp"; path = "../../Source/SAMChess_test3/SAMChess_test3GameMode.cpp"; sourceTree = SOURCE_ROOT; };
 		58A3D1E36599BD22EC8A5544 /* SAMChess_test3GameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SAMChess_test3GameMode.h"; path = "../../Source/SAMChess_test3/SAMChess_test3GameMode.h"; sourceTree = SOURCE_ROOT; };
-		92A133DD3FE73D9A482A4616 /* SAMChess_test3 */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SAMChess_test3; sourceTree = BUILT_PRODUCTS_DIR; };
+		054DB47A08937DE82BC8BBFA /* SmartTile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "SmartTile.cpp"; path = "../../Source/SAMChess_test3/SmartTile.cpp"; sourceTree = SOURCE_ROOT; };
+		2D0CF29057A8A4B9F3E1DD17 /* SmartTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SmartTile.h"; path = "../../Source/SAMChess_test3/SmartTile.h"; sourceTree = SOURCE_ROOT; };
+		EC907949597F43483BF94CFB /* MyBlueprintFunctionLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MyBlueprintFunctionLibrary.cpp"; path = "../../Source/SAMChess_test3/Private/MyBlueprintFunctionLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		66EC233FA4C6D51A5158A3C7 /* MyCustomPlayerController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "MyCustomPlayerController.cpp"; path = "../../Source/SAMChess_test3/Private/MyCustomPlayerController.cpp"; sourceTree = SOURCE_ROOT; };
+		DC9526E40B846203ED59E36D /* MyBlueprintFunctionLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyBlueprintFunctionLibrary.h"; path = "../../Source/SAMChess_test3/Public/MyBlueprintFunctionLibrary.h"; sourceTree = SOURCE_ROOT; };
+		A29399A20CB728473303620E /* MyCustomPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyCustomPlayerController.h"; path = "../../Source/SAMChess_test3/Public/MyCustomPlayerController.h"; sourceTree = SOURCE_ROOT; };
+		E78EF5C93F7813401AD755DC /* SAMChess_test3 */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SAMChess_test3; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E3DB610D20FFED8EC3759C63 = {
+		56D127E0B6F3D8911A4D197D = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				249A8682CFFD31153CACADE2 /* SAMChess_test3.cpp in Sources */,
 				FD6ED06BF2067211B4E836FC /* SAMChess_test3GameMode.cpp in Sources */,
+				13A10DD3B0EE17DCCB9EB0F0 /* SmartTile.cpp in Sources */,
+				E4431A590C6D184AE612BB9A /* MyBlueprintFunctionLibrary.cpp in Sources */,
+				A0EC90832401073737E9A21F /* MyCustomPlayerController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
-		C50BEC73060E3864F79461F5 /* PBXContainerItemProxy */ = {
+		C1C7ACDD76EF89E38D481E90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 994227A360E6FD1DAEEB997A /* Project object */;
+			containerPortal = 613F54610214FF02B07F178A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83C49276C629904BFBC5976B;
+			remoteGlobalIDString = 222E40A4723D298873AC4C58;
 			remoteInfo = "SAMChess_test3_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		F47A5BA848102A0A875678A2 /* PBXTargetDependency */ = {
+		89FBB1654F83B131E95B67B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83C49276C629904BFBC5976B /* SAMChess_test3_Build */;
-			targetProxy = C50BEC73060E3864F79461F5 /* PBXContainerItemProxy */;
+			target = 222E40A4723D298873AC4C58 /* SAMChess_test3_Build */;
+			targetProxy = C1C7ACDD76EF89E38D481E90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		07FC5C026C489C16C82C06D6 = {
+		4784214602437EF170C41008 = {
 			isa = PBXGroup;
 			children = (
-				24FE3BF6F48229DC5EEB0682 /* Source */,
+				4FC72D128AD744F999C4DE17 /* Source */,
 				10E4841AB4578BB4EF66F8B7 /* SAMChess_test3.uproject */,
-				B6B63ADED8D3948F28236F13 /* Products */,
+				D237E75ECFB89830CDE60566 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		24FE3BF6F48229DC5EEB0682 = {
+		4FC72D128AD744F999C4DE17 = {
 			isa = PBXGroup;
 			children = (
-				8257A4E950F731F7D3631B68 /* SAMChess_test3 */,
+				FB8ACA67BAD8811FCAAF0478 /* SAMChess_test3 */,
 				940AC694D607EE88F16DFF10 /* SAMChess_test3.Target.cs */,
 				6EF1EB4E659A8BF798C986A9 /* SAMChess_test3Editor.Target.cs */,
 			);
@@ -80,23 +95,47 @@
 			path = "Source";
 			sourceTree = "<group>";
 		};
-		8257A4E950F731F7D3631B68 = {
+		FB8ACA67BAD8811FCAAF0478 = {
 			isa = PBXGroup;
 			children = (
+				D5A7596065820C0C37CD47E6 /* Private */,
+				9F8AFEECB2F7E6F8A15E4959 /* Public */,
 				576A8C9304901E25ACA0FBE1 /* SAMChess_test3.Build.cs */,
 				3ECC93AF5441AEF56F12E59D /* SAMChess_test3.cpp */,
 				0B2286ABF44AB5AABDA95438 /* SAMChess_test3.h */,
 				56AF37139DE9F9662020A331 /* SAMChess_test3GameMode.cpp */,
 				58A3D1E36599BD22EC8A5544 /* SAMChess_test3GameMode.h */,
+				054DB47A08937DE82BC8BBFA /* SmartTile.cpp */,
+				2D0CF29057A8A4B9F3E1DD17 /* SmartTile.h */,
 			);
 			name = "SAMChess_test3";
 			path = "Source/SAMChess_test3";
 			sourceTree = "<group>";
 		};
-		B6B63ADED8D3948F28236F13 /* Products */ = {
+		D5A7596065820C0C37CD47E6 = {
 			isa = PBXGroup;
 			children = (
-				92A133DD3FE73D9A482A4616 /* SAMChess_test3 */,
+				EC907949597F43483BF94CFB /* MyBlueprintFunctionLibrary.cpp */,
+				66EC233FA4C6D51A5158A3C7 /* MyCustomPlayerController.cpp */,
+			);
+			name = "Private";
+			path = "Source/SAMChess_test3/Private";
+			sourceTree = "<group>";
+		};
+		9F8AFEECB2F7E6F8A15E4959 = {
+			isa = PBXGroup;
+			children = (
+				DC9526E40B846203ED59E36D /* MyBlueprintFunctionLibrary.h */,
+				A29399A20CB728473303620E /* MyCustomPlayerController.h */,
+			);
+			name = "Public";
+			path = "Source/SAMChess_test3/Public";
+			sourceTree = "<group>";
+		};
+		D237E75ECFB89830CDE60566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78EF5C93F7813401AD755DC /* SAMChess_test3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,10 +143,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		83C49276C629904BFBC5976B /* SAMChess_test3_Build */ = {
+		222E40A4723D298873AC4C58 /* SAMChess_test3_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/ethan/Developer/Unreal/SAMChess_test3/SAMChess_test3.uproject\"";
-			buildConfigurationList = 5AA04EFA73A5CA60186515A6 /* Build configuration list for PBXLegacyTarget "SAMChess_test3_Build" */;
+			buildConfigurationList = 521017D3EBB8D540DC207EC1 /* Build configuration list for PBXLegacyTarget "SAMChess_test3_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/UnrealEngine/4.10/Engine/Build/BatchFiles/Mac/RocketBuild.sh";
@@ -121,28 +160,28 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		4652EC3B91DE6CDB87F03418 /* SAMChess_test3 */ = {
+		B6B63ADED8D3948F28236F13 /* SAMChess_test3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A274685D7747145509AB0AC1 /* Build configuration list for PBXNativeTarget "SAMChess_test3" */;
+			buildConfigurationList = E3DB610D20FFED8EC3759C63 /* Build configuration list for PBXNativeTarget "SAMChess_test3" */;
 			buildPhases = (
 			);
 			dependencies = (
-				F47A5BA848102A0A875678A2 /* PBXTargetDependency */,
+				89FBB1654F83B131E95B67B4 /* PBXTargetDependency */,
 			);
 			name = "SAMChess_test3";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SAMChess_test3";
-			productReference = "92A133DD3FE73D9A482A4616";
+			productReference = "E78EF5C93F7813401AD755DC";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		DD4CCBA019DD5A9BC5D6F042 /* SAMChess_test3_Index */ = {
+		8DE7F271482799EA72CFBB48 /* SAMChess_test3_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BC19ECD0316F9CC0AC7839E /* Build configuration list for PBXNativeTarget "SAMChess_test3_Index" */;
+			buildConfigurationList = AFE471501F961D3A429C762E /* Build configuration list for PBXNativeTarget "SAMChess_test3_Index" */;
 			buildPhases = (
-				E3DB610D20FFED8EC3759C63 /* Sources */,
+				56D127E0B6F3D8911A4D197D /* Sources */,
 			);
 			dependencies = (
 			);
@@ -154,33 +193,33 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		994227A360E6FD1DAEEB997A /* Project object */ = {
+		613F54610214FF02B07F178A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 			};
-			buildConfigurationList = 5EF0321E6BFCA684B00B7FB1 /* Build configuration list for PBXProject "SAMChess_test3" */;
+			buildConfigurationList = 4AB8404C1261E68355CF2407 /* Build configuration list for PBXProject "SAMChess_test3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 07FC5C026C489C16C82C06D6;
-			productRefGroup = B6B63ADED8D3948F28236F13;
+			mainGroup = 4784214602437EF170C41008;
+			productRefGroup = D237E75ECFB89830CDE60566;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			4652EC3B91DE6CDB87F03418 /* SAMChess_test3 */,
-			83C49276C629904BFBC5976B /* SAMChess_test3_Build */,
-			DD4CCBA019DD5A9BC5D6F042 /* SAMChess_test3_Index */,
+			B6B63ADED8D3948F28236F13 /* SAMChess_test3 */,
+			222E40A4723D298873AC4C58 /* SAMChess_test3_Build */,
+			8DE7F271482799EA72CFBB48 /* SAMChess_test3_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		89FBB1654F83B131E95B67B4 /* "DebugGame" */ = {
+		F2B9FF6C00251986A83779DA /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -274,6 +313,7 @@
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source",
 					"../../Source",
+					"../../Source/SAMChess_test3/Public",
 					"../Build/Mac/UE4Editor/Inc/SAMChess_test3",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization",
@@ -533,7 +573,7 @@
 			};
 			name = "DebugGame";
 		};
-		521017D3EBB8D540DC207EC1 /* "DebugGame Editor" */ = {
+		3F3C5A2513B8FE37C8CD5061 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -627,6 +667,7 @@
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source",
 					"../../Source",
+					"../../Source/SAMChess_test3/Public",
 					"../Build/Mac/UE4Editor/Inc/SAMChess_test3",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization",
@@ -886,7 +927,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		4AB8404C1261E68355CF2407 /* "Development" */ = {
+		E494D464905610A1594F6082 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -980,6 +1021,7 @@
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source",
 					"../../Source",
+					"../../Source/SAMChess_test3/Public",
 					"../Build/Mac/UE4Editor/Inc/SAMChess_test3",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization",
@@ -1239,7 +1281,7 @@
 			};
 			name = "Development";
 		};
-		F2B9FF6C00251986A83779DA /* "Development Editor" */ = {
+		F856F658A3E0D2F98D51E138 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1333,6 +1375,7 @@
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source",
 					"../../Source",
+					"../../Source/SAMChess_test3/Public",
 					"../Build/Mac/UE4Editor/Inc/SAMChess_test3",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization",
@@ -1592,7 +1635,7 @@
 			};
 			name = "Development Editor";
 		};
-		3F3C5A2513B8FE37C8CD5061 /* "Shipping" */ = {
+		4BF4B5FD407F89255D77145C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1686,6 +1729,7 @@
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source",
 					"../../Source",
+					"../../Source/SAMChess_test3/Public",
 					"../Build/Mac/UE4Editor/Inc/SAMChess_test3",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization",
@@ -1945,7 +1989,7 @@
 			};
 			name = "Shipping";
 		};
-		C1C7ACDD76EF89E38D481E90 /* "DebugGame" */ = {
+		7A88B39C37F439617FBAF031 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1970,7 +2014,7 @@
 			};
 			name = "DebugGame";
 		};
-		8DE7F271482799EA72CFBB48 /* "DebugGame Editor" */ = {
+		EA9C9A2A4AF3BC101D9DE20B /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1984,7 +2028,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		4784214602437EF170C41008 /* "Development" */ = {
+		24FE3BF6F48229DC5EEB0682 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2009,7 +2053,7 @@
 			};
 			name = "Development";
 		};
-		7A88B39C37F439617FBAF031 /* "Development Editor" */ = {
+		B12650611E69AEC1E3D2F87F /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2023,7 +2067,7 @@
 			};
 			name = "Development Editor";
 		};
-		EA9C9A2A4AF3BC101D9DE20B /* "Shipping" */ = {
+		0110645A364E217934566145 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2048,7 +2092,7 @@
 			};
 			name = "Shipping";
 		};
-		E78EF5C93F7813401AD755DC /* "DebugGame" */ = {
+		1B9E3B7DEB7EED851D6A6B16 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2058,7 +2102,7 @@
 			};
 			name = "DebugGame";
 		};
-		AFE471501F961D3A429C762E /* "DebugGame Editor" */ = {
+		C59194FFFCD2D9CE380D3DAF /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2068,7 +2112,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		D237E75ECFB89830CDE60566 /* "Development" */ = {
+		8257A4E950F731F7D3631B68 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2078,7 +2122,7 @@
 			};
 			name = "Development";
 		};
-		1B9E3B7DEB7EED851D6A6B16 /* "Development Editor" */ = {
+		4347DFC294321B931637F1FA /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2088,7 +2132,7 @@
 			};
 			name = "Development Editor";
 		};
-		C59194FFFCD2D9CE380D3DAF /* "Shipping" */ = {
+		16BB30C1F74BEC3D1708769F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2098,7 +2142,7 @@
 			};
 			name = "Shipping";
 		};
-		222E40A4723D298873AC4C58 /* "DebugGame" */ = {
+		B92B2FA8CD7FBE1E584D662D /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2123,7 +2167,7 @@
 			};
 			name = "DebugGame";
 		};
-		613F54610214FF02B07F178A /* "DebugGame Editor" */ = {
+		23C771656B334DEBDACDBD30 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2137,7 +2181,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		56D127E0B6F3D8911A4D197D /* "Development" */ = {
+		FE743EE2FD9C56D466EF406C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2162,7 +2206,7 @@
 			};
 			name = "Development";
 		};
-		B92B2FA8CD7FBE1E584D662D /* "Development Editor" */ = {
+		00D853F29022DAAC930630D7 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2176,7 +2220,7 @@
 			};
 			name = "Development Editor";
 		};
-		23C771656B334DEBDACDBD30 /* "Shipping" */ = {
+		7C1E5296AECC9C89C3F7F180 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2204,55 +2248,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EF0321E6BFCA684B00B7FB1 /* Build configuration list for PBXProject "SAMChess_test3" */ = {
+		4AB8404C1261E68355CF2407 /* Build configuration list for PBXProject "SAMChess_test3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89FBB1654F83B131E95B67B4 /* "DebugGame" */,
-				521017D3EBB8D540DC207EC1 /* "DebugGame Editor" */,
-				4AB8404C1261E68355CF2407 /* "Development" */,
-				F2B9FF6C00251986A83779DA /* "Development Editor" */,
-				3F3C5A2513B8FE37C8CD5061 /* "Shipping" */,
+				F2B9FF6C00251986A83779DA /* "DebugGame" */,
+				3F3C5A2513B8FE37C8CD5061 /* "DebugGame Editor" */,
+				E494D464905610A1594F6082 /* "Development" */,
+				F856F658A3E0D2F98D51E138 /* "Development Editor" */,
+				4BF4B5FD407F89255D77145C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		5AA04EFA73A5CA60186515A6 /* Build configuration list for PBXLegacyTarget "SAMChess_test3_Build" */ = {
+		521017D3EBB8D540DC207EC1 /* Build configuration list for PBXLegacyTarget "SAMChess_test3_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E78EF5C93F7813401AD755DC /* "DebugGame" */,
-				AFE471501F961D3A429C762E /* "DebugGame Editor" */,
-				D237E75ECFB89830CDE60566 /* "Development" */,
-				1B9E3B7DEB7EED851D6A6B16 /* "Development Editor" */,
-				C59194FFFCD2D9CE380D3DAF /* "Shipping" */,
+				1B9E3B7DEB7EED851D6A6B16 /* "DebugGame" */,
+				C59194FFFCD2D9CE380D3DAF /* "DebugGame Editor" */,
+				8257A4E950F731F7D3631B68 /* "Development" */,
+				4347DFC294321B931637F1FA /* "Development Editor" */,
+				16BB30C1F74BEC3D1708769F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		A274685D7747145509AB0AC1 /* Build configuration list for PBXNativeTarget "SAMChess_test3" */ = {
+		E3DB610D20FFED8EC3759C63 /* Build configuration list for PBXNativeTarget "SAMChess_test3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1C7ACDD76EF89E38D481E90 /* "DebugGame" */,
-				8DE7F271482799EA72CFBB48 /* "DebugGame Editor" */,
-				4784214602437EF170C41008 /* "Development" */,
-				7A88B39C37F439617FBAF031 /* "Development Editor" */,
-				EA9C9A2A4AF3BC101D9DE20B /* "Shipping" */,
+				7A88B39C37F439617FBAF031 /* "DebugGame" */,
+				EA9C9A2A4AF3BC101D9DE20B /* "DebugGame Editor" */,
+				24FE3BF6F48229DC5EEB0682 /* "Development" */,
+				B12650611E69AEC1E3D2F87F /* "Development Editor" */,
+				0110645A364E217934566145 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		7BC19ECD0316F9CC0AC7839E /* Build configuration list for PBXNativeTarget "SAMChess_test3_Index" */ = {
+		AFE471501F961D3A429C762E /* Build configuration list for PBXNativeTarget "SAMChess_test3_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				222E40A4723D298873AC4C58 /* "DebugGame" */,
-				613F54610214FF02B07F178A /* "DebugGame Editor" */,
-				56D127E0B6F3D8911A4D197D /* "Development" */,
-				B92B2FA8CD7FBE1E584D662D /* "Development Editor" */,
-				23C771656B334DEBDACDBD30 /* "Shipping" */,
+				B92B2FA8CD7FBE1E584D662D /* "DebugGame" */,
+				23C771656B334DEBDACDBD30 /* "DebugGame Editor" */,
+				FE743EE2FD9C56D466EF406C /* "Development" */,
+				00D853F29022DAAC930630D7 /* "Development Editor" */,
+				7C1E5296AECC9C89C3F7F180 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 994227A360E6FD1DAEEB997A /* Project object */;
+	rootObject = 613F54610214FF02B07F178A /* Project object */;
 }

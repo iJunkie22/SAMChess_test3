@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13A10DD3B0EE17DCCB9EB0F0"
+               BlueprintIdentifier = "A0F10ECCF5A0D9D476F21799"
                BuildableName = "UE4Game.app"
                BlueprintName = "UE4"
                ReferencedContainer = "container:UE4.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13A10DD3B0EE17DCCB9EB0F0"
+            BlueprintIdentifier = "A0F10ECCF5A0D9D476F21799"
             BuildableName = "UE4Game.app"
             BlueprintName = "UE4"
             ReferencedContainer = "container:UE4.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13A10DD3B0EE17DCCB9EB0F0"
+            BlueprintIdentifier = "A0F10ECCF5A0D9D476F21799"
             BuildableName = "UE4Game.app"
             BlueprintName = "UE4"
             ReferencedContainer = "container:UE4.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13A10DD3B0EE17DCCB9EB0F0"
+            BlueprintIdentifier = "A0F10ECCF5A0D9D476F21799"
             BuildableName = "UE4Game.app"
             BlueprintName = "UE4"
             ReferencedContainer = "container:UE4.xcodeproj">
